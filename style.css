@@ -6,10 +6,12 @@ h1{
     
     font-size: 50px;
     font-style: normal;
+    letter-spacing:2px;
 }
 .header-one h2{
     font-size:40px;
     font-style: normal;
+    letter-spacing: 2px;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -19,6 +21,7 @@ p{
     font-style: normal;
     color: rgb(94, 111, 165);
     height: 20%;
+    letter-spacing: 2px;
 }
 .header-two{
     color: rgb(255, 71, 117);
@@ -37,7 +40,7 @@ p{
     width: 100%;
 }
 section{
-    height: 500px;
+    height:600px;
     padding-bottom: 150px;
 }
 .link-button{
@@ -65,6 +68,9 @@ section{
 }
 .working-section{
     background-color:rgb(255, 226, 245);
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     
 }
 .work{
@@ -86,9 +92,78 @@ h3{
     
     width:60%;
     height:30%;
-    margin: 20%;
-    
-    
+    margin: 20%;  
+}
+.foot{
+    letter-spacing: 2px;
+    float:left;
+    width:40%;
+    height:40%;
+    color: white;
+    padding-bottom: 50px;
+    margin: 20px; 
+    margin-left: 20px;
+}
+.sec4{
+    background-image: url(images/footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 300px;
+}
+
+#chat{
    
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, rgb(0, 199, 199), rgb(138, 119, 202));
+    margin-left: 160px;
+    width: 50px;
+    color: whitesmoke;
     
 }
+.services{
+    background-color: rgb(193, 219, 171);
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.create{
+    float:left;
+    margin-left: 3%;
+    margin-right: 2%;
+    padding-left: 2%;
+    text-align: justify;
+    border: 5px ;
+    border-radius: 8px;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding-top:10px;
+   
+}
+.services h2{
+    color: tomato;   
+}
+.services h1{
+    text-align:center;
+    margin: 25px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: rgb(85, 40, 74);
+}
+.create img{
+    width: 50%;
+    margin-left: 85px;
+    
+}
+.create h2{
+    text-align: center;
+}
+.create p{
+    font-size: 15px;
+    text-align:left;
+    background-origin: padding-box;
+    border: tomato;
+}
+
+
