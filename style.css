@@ -33,11 +33,10 @@ p{
     height:20%;
     margin-left: 5%;
     padding-left: 2%;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px;   
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 section{
     height:600px;
